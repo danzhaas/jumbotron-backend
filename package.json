@@ -1,0 +1,30 @@
+{
+    "name": "jumbotron-tdl-backend",
+    "version": "1.0.0",
+    "description": "connecting form submission to a database",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server",
+        "server": "nodemon server"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/danzhaas/portfolio-back-end.git"
+    },
+    "author": "Dan Haas",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/danzhaas/portfolio-back-end/issues"
+    },
+    "homepage": "https://github.com/danzhaas/portfolio-back-end#readme",
+    "dependencies": {
+        "config": "^3.3.3",
+        "express": "^4.17.1",
+        "express-validator": "^6.9.0",
+        "mongoose": "^5.11.6",
+        "require": "^2.4.20"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.6"
+    }
+}

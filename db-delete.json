@@ -1,0 +1,79 @@
+    {
+        "id": 1,
+        "description": "Clean Bathroom",
+        "done":false,
+        "level":0,
+        "subtasks": [
+            2,3,4,6
+        ],
+        "timecreated":"1609818768740",
+    },
+    {
+        "id": 2,
+        "description": "Clean Sink",
+        "done":true,
+        "level":1,
+        "subtasks": [7],
+        "timecreated":1609818768740,
+        "timedone":1609818979000
+    },
+    {
+        "id": 3,
+        "description": "Clean Tub",
+        "done":true,
+        "level":1,
+        "subtasks": [],
+        "timecreated":1609818768740,
+        "timedone":1609818979602
+    },
+    {
+        "id": 4,
+        "description": "Clean Toilet",
+        "done":true,
+        "level":1,
+        "subtasks": [],
+        "timecreated":1609818768740,
+        "timedone":1609818978000
+    },
+    {
+        "id": 5,
+        "description": "Apply for Jobs",
+        "done":true,
+        "level":0,
+        "subtasks": [],
+        "timecreated":1609818500000,
+        "timedone":1609818510000
+    },
+    {
+        "id": 6,
+        "description": "Rinse tub during shower",
+        "done":false,
+        "level":1,
+        "subtasks": [],
+        "timecreated":1609818768740
+    },
+    {
+        "id": 7,
+        "description": "Clean Mirror",
+        "done":false,
+        "level":2,
+        "subtasks": [8],
+        "timecreated":1609818768740
+    },
+    {
+        "id": 8,
+        "description": "Spray cleaner",
+        "done":false,
+        "level":3,
+        "subtasks": [9],
+        "timecreated":1609818768740
+    },
+    {
+        "id": 9,
+        "description": "Pull sprayer trigger",
+        "done":false,
+        "level":4,
+        "subtasks": [],
+        "timecreated":1609818768740
+    }
+]
