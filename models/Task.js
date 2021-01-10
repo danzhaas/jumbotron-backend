@@ -15,10 +15,14 @@ const TaskSchema = new mongoose.Schema({
         required:true,
         default:0
     },
-    subtasks: [
-        {
+    parent: {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'task'
+    },
+    subtasks: [
+        {
+            type: mongoose.Schema.Types.ObjectId,
+            ref: 'task'
         }
     ],
     timecreated: {
